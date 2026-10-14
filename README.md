@@ -41,3 +41,13 @@ python3 -m http.server 8765
 
 - 不提供医疗或用药建议；替尔泊肽相关事项请咨询处方医生。
 - 设备与计划事实来自 `减脂与午休健身计划_AI交接文档_2026-10-14.md`。
+
+## 一键发布（本机已装 gh）
+
+```bash
+cd /workspace/fitness/web
+gh auth login   # 若尚未登录
+./publish.sh buyun00/lunch-fitness
+```
+
+预计公开地址：`https://buyun00.github.io/lunch-fitness/`
