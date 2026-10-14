@@ -162,9 +162,13 @@
       const statusClass = h.status === "done" ? "" : "planned";
       const statusText = h.status === "done" ? "已完成" : "计划中";
       const felt = h.felt ? ` · 感觉：${h.felt}` : "";
+      const md = h.date ? (() => {
+        const [yy, mm, dd] = h.date.split("-");
+        return `${Number(mm)}月${Number(dd)}日`;
+      })() : "";
       el.innerHTML = `
         <div class="history-top">
-          <div class="history-date">${escapeHtml(h.weekday || "")} · ${escapeHtml(h.date.slice(5).replace("-", "月"))}日</div>
+          <div class="history-date">${escapeHtml(h.weekday || "")} · ${escapeHtml(md)}</div>
           <span class="history-status ${statusClass}">${statusText}</span>
         </div>
         <div class="history-title">${escapeHtml(h.title)}</div>
