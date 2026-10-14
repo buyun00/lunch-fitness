@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "午休健身计划",
+    "user": "Lumi",
+    "heightCm": 178,
+    "weightKg": 87,
+    "startWeightKg": 95,
+    "goalWeightKg": 75,
+    "timezone": "Asia/Shanghai",
+    "sessionMinutes": "25–30",
+    "pattern": "一三五力量 · 二四有氧 · 周末休息",
+    "note": "本页仅作训练安排参考，不构成医疗建议。"
+  },
+  "templates": {
+    "strength-a": {
+      "id": "strength-a",
+      "type": "strength",
+      "title": "全身力量 A",
+      "badge": "初次训练",
+      "goal": "25 ~ 30 分钟训练 + 洗澡吃饭午睡",
+      "tip": "今天主要熟悉三个基础动作，不需要追求大重量。组间休息 60–90 秒，每组保留约 3 次余力。",
+      "footer": "熟悉器械如何调座椅与配重；动作标准优先，不练到力竭。",
+      "items": [
+        { "id": "sa-warm", "title": "跑步机热身", "subtitle": "平地轻松走，逐渐提速到微微出汗", "duration": "5 分钟", "emoji": "🔥" },
+        { "id": "sa-squat", "title": "坐椅深蹲", "subtitle": "2 组 × 10 次 · 用长凳辅助", "duration": "约 5 分钟", "emoji": "🦵" },
+        { "id": "sa-pulldown", "title": "坐姿高位下拉", "subtitle": "2 组 × 10 次 · 轻重量，姿势稳定", "duration": "约 6 分钟", "emoji": "💪" },
+        { "id": "sa-pushup", "title": "上斜俯卧撑", "subtitle": "2 组 × 8 次 · 手撑稳固长凳", "duration": "约 5 分钟", "emoji": "🤲" },
+        { "id": "sa-cool", "title": "慢走放松", "subtitle": "平复呼吸", "duration": "3 分钟", "emoji": "😌" }
+      ],
+      "flow": [
+        { "id": "flow-shower", "title": "洗澡更衣", "subtitle": "换干爽衣服", "duration": "15–20 分钟", "emoji": "🚿" },
+        { "id": "flow-lunch", "title": "午餐", "subtitle": "饭后别立刻平躺", "duration": "约 25 分钟", "emoji": "🍱" },
+        { "id": "flow-nap", "title": "午睡", "subtitle": "尽量留 20–25 分钟", "duration": "约 25 分钟", "emoji": "😴" }
+      ]
+    },
+    "elliptical": {
+      "id": "elliptical",
+      "type": "cardio",
+      "title": "椭圆机有氧",
+      "badge": "低冲击",
+      "goal": "训练约 25 分钟 + 洗澡吃饭午睡",
+      "tip": "中等强度：呼吸加快但仍能说完整句子，主观用力约 4–5/10。穿软底跑鞋即可。",
+      "footer": "若前一天力量后酸痛明显，可改平地轻松快走或休息。",
+      "items": [
+        { "id": "el-warm", "title": "热身", "subtitle": "椭圆机 · 低阻力", "duration": "5 分钟", "emoji": "🔥" },
+        { "id": "el-main", "title": "中等强度", "subtitle": "能说完整句子 · 用力 4–5/10", "duration": "15 分钟", "emoji": "💪" },
+        { "id": "el-cool", "title": "放松", "subtitle": "低阻力慢踩", "duration": "5 分钟", "emoji": "😌" }
+      ],
+      "flow": [
+        { "id": "flow-shower", "title": "洗澡更衣", "subtitle": "换干爽衣服", "duration": "15–20 分钟", "emoji": "🚿" },
+        { "id": "flow-lunch", "title": "午餐", "subtitle": "饭后别立刻平躺", "duration": "约 25 分钟", "emoji": "🍱" },
+        { "id": "flow-nap", "title": "午睡", "subtitle": "尽量留 20–25 分钟", "duration": "约 25 分钟", "emoji": "😴" }
+      ]
+    },
+    "strength-b": {
+      "id": "strength-b",
+      "type": "strength",
+      "title": "全身力量 B",
+      "badge": null,
+      "goal": "约 25 分钟训练 + 洗澡吃饭午睡",
+      "tip": "若周三仍明显酸痛，降低训练量或重复基础动作，不增加重量。",
+      "footer": "龙门架低位划船请确认有合适附件与稳定姿势。",
+      "items": [
+        { "id": "sb-warm", "title": "跑步机热身", "subtitle": "轻松走", "duration": "5 分钟", "emoji": "🔥" },
+        { "id": "sb-squat", "title": "坐椅深蹲", "subtitle": "2 组 × 10 次 · 熟练后可试极轻杯式深蹲", "duration": "约 5 分钟", "emoji": "🦵" },
+        { "id": "sb-row", "title": "龙门架低位绳索划船", "subtitle": "2 组 × 10 次", "duration": "约 6 分钟", "emoji": "💪" },
+        { "id": "sb-pushup", "title": "上斜俯卧撑", "subtitle": "2 组 × 8–10 次", "duration": "约 5 分钟", "emoji": "🤲" },
+        { "id": "sb-bridge", "title": "臀桥", "subtitle": "1–2 组 × 12 次", "duration": "约 4 分钟", "emoji": "🍑" }
+      ],
+      "flow": [
+        { "id": "flow-shower", "title": "洗澡更衣", "subtitle": "换干爽衣服", "duration": "15–20 分钟", "emoji": "🚿" },
+        { "id": "flow-lunch", "title": "午餐", "subtitle": "饭后别立刻平躺", "duration": "约 25 分钟", "emoji": "🍱" },
+        { "id": "flow-nap", "title": "午睡", "subtitle": "尽量留 20–25 分钟", "duration": "约 25 分钟", "emoji": "😴" }
+      ]
+    },
+    "rest": {
+      "id": "rest",
+      "type": "rest",
+      "title": "休息日",
+      "badge": "周末",
+      "goal": "不安排正式健身房训练",
+      "tip": "可按身体状态做轻松日常活动。若有持续异常疼痛或明显不适，不要硬练。",
+      "footer": "好好恢复，下周继续。",
+      "items": [
+        { "id": "rest-note", "title": "休息与恢复", "subtitle": "轻松散步、拉伸都可以，听身体的", "duration": "—", "emoji": "😴" }
+      ],
+      "flow": []
+    }
+  },
+  "schedule": {
+    "0": "rest",
+    "1": "strength-a",
+    "2": "elliptical",
+    "3": "strength-a",
+    "4": "elliptical",
+    "5": "strength-b",
+    "6": "rest"
+  },
+  "overrides": {
+    "2026-10-14": "strength-a",
+    "2026-10-15": "elliptical",
+    "2026-10-16": "strength-b",
+    "2026-10-17": "rest",
+    "2026-10-18": "rest"
+  },
+  "history": [
+    {
+      "date": "2026-10-14",
+      "weekday": "周三",
+      "templateId": "strength-a",
+      "title": "全身力量 A",
+      "status": "done",
+      "notes": "已完成，感觉比较轻松。未记录具体重量。",
+      "felt": "轻松"
+    }
+  ]
+}
