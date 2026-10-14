@@ -2,10 +2,6 @@
   "meta": {
     "title": "午休健身计划",
     "user": "Lin0",
-    "heightCm": 178,
-    "weightKg": 87,
-    "startWeightKg": 95,
-    "goalWeightKg": 75,
     "timezone": "Asia/Shanghai",
     "sessionMinutes": "25–30",
     "pattern": "一三五力量 · 二四有氧 · 周末休息",

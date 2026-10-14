@@ -150,8 +150,6 @@
     const meta = document.createElement("div");
     meta.className = "meta-bar";
     meta.innerHTML = `
-      <span class="meta-pill">当前 ${plan.meta.weightKg} kg</span>
-      <span class="meta-pill">目标 ~${plan.meta.goalWeightKg} kg</span>
       <span class="meta-pill">${escapeHtml(plan.meta.pattern)}</span>
     `;
     root.appendChild(meta);
@@ -211,7 +209,7 @@
       if (!res.ok) throw new Error("无法加载计划数据");
       const plan = await res.json();
       $(".brand-title").textContent = plan.meta.title || "午休健身计划";
-      $(".weight-chip").textContent = `${plan.meta.weightKg} → ${plan.meta.goalWeightKg} kg`;
+      
       renderToday(plan);
       renderHistory(plan);
     } catch (err) {
