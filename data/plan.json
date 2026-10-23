@@ -92,10 +92,10 @@
       "id": "strength-b",
       "type": "strength",
       "title": "全身力量 B",
-      "badge": null,
+      "badge": "背·核心·后链",
       "goal": "约 25 分钟训练",
-      "tip": "若周三仍明显酸痛，降低训练量或重复基础动作，不增加重量。",
-      "footer": "龙门架低位划船请确认有合适附件与稳定姿势。",
+      "tip": "今天侧重背、核心与后链，和力量 A（股四头+垂直拉+推）错开。若 HRV 偏低或仍明显酸痛，每动作做 2 组、不加重，觉得累就少做一组。",
+      "footer": "绳索卷腹用跪姿+绳索附件，卷腹时收紧核心、不要猛拉；罗马椅挺身到身体接近一条直线即可，不要过度后仰伤腰。",
       "items": [
         {
           "id": "sb-warm",
@@ -105,32 +105,39 @@
           "emoji": "🔥"
         },
         {
-          "id": "sb-squat",
-          "title": "坐椅深蹲",
-          "subtitle": "2 组 × 10 次 · 熟练后可试极轻杯式深蹲",
-          "duration": "约 5 分钟",
-          "emoji": "🦵"
-        },
-        {
           "id": "sb-row",
-          "title": "龙门架低位绳索划船",
-          "subtitle": "2 组 × 10 次",
+          "title": "坐姿划船",
+          "subtitle": "2 组 × 10 次 · 肩胛后收 · 器械或龙门架低位绳索",
           "duration": "约 6 分钟",
           "emoji": "💪"
         },
         {
-          "id": "sb-pushup",
-          "title": "上斜俯卧撑",
-          "subtitle": "2 组 × 8–10 次",
+          "id": "sb-crunch",
+          "title": "龙门架跪姿绳索卷腹",
+          "subtitle": "2 组 × 12 次 · 核心",
           "duration": "约 5 分钟",
-          "emoji": "🤲"
+          "emoji": "🧘"
         },
         {
-          "id": "sb-bridge",
-          "title": "臀桥",
-          "subtitle": "1–2 组 × 12 次",
+          "id": "sb-legcurl",
+          "title": "QuikBody 坐姿腿弯举",
+          "subtitle": "2 组 × 10 次 · 轻重量",
+          "duration": "约 5 分钟",
+          "emoji": "🦵"
+        },
+        {
+          "id": "sb-extension",
+          "title": "罗马椅挺身",
+          "subtitle": "1–2 组 × 10–12 次 · 或臀桥替代",
           "duration": "约 4 分钟",
           "emoji": "🍑"
+        },
+        {
+          "id": "sb-cool",
+          "title": "慢走放松",
+          "subtitle": "平复呼吸",
+          "duration": "3 分钟",
+          "emoji": "😌"
         }
       ],
       "flow": []
