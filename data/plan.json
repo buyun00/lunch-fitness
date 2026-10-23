@@ -12,7 +12,7 @@
       "id": "strength-a",
       "type": "strength",
       "title": "全身力量 A",
-      "badge": "初次训练",
+      "badge": "股四头·拉·推",
       "goal": "25 ~ 30 分钟训练",
       "tip": "今天主要熟悉三个基础动作，不需要追求大重量。组间休息 60–90 秒，每组保留约 3 次余力。",
       "footer": "熟悉器械如何调座椅与配重；动作标准优先，不练到力竭。",
@@ -25,23 +25,23 @@
           "emoji": "🔥"
         },
         {
-          "id": "sa-squat",
-          "title": "坐椅深蹲",
-          "subtitle": "2 组 × 10 次 · 用长凳辅助",
+          "id": "sa-legext",
+          "title": "QuikBody 坐姿腿屈伸",
+          "subtitle": "2 组 × 10 次 · 15kg",
           "duration": "约 5 分钟",
           "emoji": "🦵"
         },
         {
           "id": "sa-pulldown",
-          "title": "坐姿高位下拉",
-          "subtitle": "2 组 × 10 次 · 轻重量，姿势稳定",
+          "title": "宽握高位下拉",
+          "subtitle": "2 组 × 10 次 · 约 13kg",
           "duration": "约 6 分钟",
           "emoji": "💪"
         },
         {
-          "id": "sa-pushup",
-          "title": "上斜俯卧撑",
-          "subtitle": "2 组 × 8 次 · 手撑稳固长凳",
+          "id": "sa-chestpress",
+          "title": "坐姿推胸（QuikBody）",
+          "subtitle": "2 组 × 8–10 次 · 约 15kg",
           "duration": "约 5 分钟",
           "emoji": "🤲"
         },
